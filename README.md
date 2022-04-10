@@ -3,8 +3,7 @@
 In this Python tutorial, I'm going to show you how to make a GUI with just one line of code - and it's really easy! GUI stands for Graphical User Interface. It is the visual part of a system that a user interacts with. In this video, I will show you how to create GUI with ONE LINE OF CODE using Python and the PySimpleGUI library.
 
 ## Video Tutorial
-will follow soon ..
-[![YouTube Video](https://img.youtube.com/vi/XXX/0.jpg)](https://youtu.be/XXX)
+[![YouTube Video](https://img.youtube.com/vi/_H5hsUwv8lE/0.jpg)](https://youtu.be/_H5hsUwv8lE)
 
 
 ## Requirements

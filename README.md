@@ -8,17 +8,17 @@ In this Python tutorial, I'm going to show you how to make a GUI with just one l
 ## Examples
 | Code | Widow |
 | -- | -- |
-| ``` sg.popup_get_folder("Select Folder") ``` |  ![Kiku](demos/popup_get_folder.jpg) |
-| ``` sg.popup_get_file("Choose Excel file", multiple_files=True, file_types=(("Excel Files", "*.xls*"),),) ``` |  ![Kiku](demos/popup_get_file.jpg) |
-| ``` sg.popup_get_date() ``` |  ![Kiku](demos/popup_get_date.jpg) |
-| ``` sg.popup_get_text("Please enter a text:") ``` |  ![Kiku](demos/popup_get_text.jpg) |
-| ``` sg.popup_no_buttons("You cannot click any buttons") ``` |  ![Kiku](demos/popup_no_buttons.jpg) |
-| ``` sg.popup_no_titlebar("A very simple popup") ``` |  ![Kiku](demos/popup_no_titlebar.jpg) |
-| ``` sg.popup_ok("You can only click on 'OK'") ``` |  ![Kiku](demos/popup_ok.jpg) |
-| ``` sg.popup_error("Something went wrong") ``` |  ![Kiku](demos/popup_error.jpg) |
-| ``` sg.popup_notify("Task done!") ``` |  ![Kiku](demos/popup_notify.jpg) |
-| ``` sg.popup_yes_no("Do you like this video?") ``` |  ![Kiku](demos/popup_yes_no.jpg) |
-| ``` sg.Window("Continue?",[[sg.T("Do you want to subscribe to this channel?")], [sg.Yes(s=10), sg.No(s=10), sg.Button('Maybe', s=10)]],disable_close=True,).read(close=True) ``` |  ![Kiku](demos/custom.jpg) |
+| ```python sg.popup_get_folder("Select Folder") ``` |  ![popup_get_folder](demos/popup_get_folder.jpg) |
+| ``` sg.popup_get_file("Choose Excel file", multiple_files=True, file_types=(("Excel Files", "*.xls*"),),) ``` |  ![popup_get_file](demos/popup_get_file.jpg) |
+| ``` sg.popup_get_date() ``` |  ![popup_get_date](demos/popup_get_date.jpg) |
+| ``` sg.popup_get_text("Please enter a text:") ``` |  ![popup_get_text](demos/popup_get_text.jpg) |
+| ``` sg.popup_no_buttons("You cannot click any buttons") ``` |  ![popup_no_buttons](demos/popup_no_buttons.jpg) |
+| ``` sg.popup_no_titlebar("A very simple popup") ``` |  ![popup_no_titlebar](demos/popup_no_titlebar.jpg) |
+| ``` sg.popup_ok("You can only click on 'OK'") ``` |  ![popup_ok](demos/popup_ok.jpg) |
+| ``` sg.popup_error("Something went wrong") ``` |  ![popup_error](demos/popup_error.jpg) |
+| ``` sg.popup_notify("Task done!") ``` |  ![popup_notify](demos/popup_notify.jpg) |
+| ``` sg.popup_yes_no("Do you like this video?") ``` |  ![popup_yes_no](demos/popup_yes_no.jpg) |
+| ``` sg.Window("Continue?",[[sg.T("Do you want to subscribe to this channel?")], [sg.Yes(s=10), sg.No(s=10), sg.Button('Maybe', s=10)]],disable_close=True,).read(close=True) ``` |  ![custom_popup](demos/custom_popup.jpg) |
 
 
 ## Requirements

@@ -9,7 +9,7 @@ In this Python tutorial, I'm going to show you how to make a GUI with just one l
 ```python
 import PySimpleGUI as sg
 ```
-| Code | Widow |
+| Code | Window |
 | -- | -- |
 | ``` sg.popup_get_folder("Select Folder") ``` |  ![popup_get_folder](demos/popup_get_folder.jpg) |
 | ``` sg.popup_get_file("Choose Excel file", multiple_files=True, file_types=(("Excel Files", "*.xls*"),),) ``` |  ![popup_get_file](demos/popup_get_file.jpg) |

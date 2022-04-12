@@ -6,9 +6,12 @@ In this Python tutorial, I'm going to show you how to make a GUI with just one l
 [![YouTube Video](https://img.youtube.com/vi/_H5hsUwv8lE/0.jpg)](https://youtu.be/_H5hsUwv8lE)
 
 ## Examples
+```python
+import PySimpleGUI as sg
+```
 | Code | Widow |
 | -- | -- |
-| ```python sg.popup_get_folder("Select Folder") ``` |  ![popup_get_folder](demos/popup_get_folder.jpg) |
+| ``` sg.popup_get_folder("Select Folder") ``` |  ![popup_get_folder](demos/popup_get_folder.jpg) |
 | ``` sg.popup_get_file("Choose Excel file", multiple_files=True, file_types=(("Excel Files", "*.xls*"),),) ``` |  ![popup_get_file](demos/popup_get_file.jpg) |
 | ``` sg.popup_get_date() ``` |  ![popup_get_date](demos/popup_get_date.jpg) |
 | ``` sg.popup_get_text("Please enter a text:") ``` |  ![popup_get_text](demos/popup_get_text.jpg) |

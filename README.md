@@ -23,13 +23,11 @@ import PySimpleGUI as sg
 | ``` sg.popup_yes_no("Do you like this video?") ``` |  ![popup_yes_no](demos/popup_yes_no.jpg) |
 | ``` sg.Window("Continue?",[[sg.T("Do you want to subscribe to this channel?")], [sg.Yes(s=10), sg.No(s=10), sg.Button('Maybe', s=10)]],disable_close=True,).read(close=True) ``` |  ![custom_popup](demos/custom_popup.jpg) |
 
-
 ## Requirements
 ```
 xlwings==0.25.3
 PySimpleGUI==4.59.0
 ```
-
 
 ## More Solutions
 Explore my tools and templates for Excel, automation, and more.
@@ -40,15 +38,7 @@ Explore my tools and templates for Excel, automation, and more.
 - **Website:** [PythonAndVBA](https://pythonandvba.com)
 - **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
 - **Contact:** [Get in Touch](https://pythonandvba.com/contact)
-## ☕ Support 
-If you appreciate the project and wish to encourage its continued development, consider [supporting my work](https://pythonandvba.com/coffee-donation).
+## Support
+If you find this project helpful, consider buying me a coffee. 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://pythonandvba.com/coffee-donation)
-
-## Feedback & Collaboration
-For feedback, suggestions, or potential collaboration opportunities, reach out at contact@pythonandvba.com.
-![Logo](https://www.pythonandvba.com/banner-img)
-
-If you have any feedback, please reach out to me at contact@pythonandvba.com
-
-![Logo](https://www.pythonandvba.com/banner-img)
-
